@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riley Clos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        Riley Clos Beats
+        <div>
+            <i class="material-symbols-sharp" id="settings">settings</i>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>choose a beat!</h3><br>
+            <button id="last-night" class="beat">
+                <h3 class="title">Last Night on the Beach</h3>
+                <h4>$20</4>
+                <span class="description">Last Night on the Beach is a lo-fi inspired beat, made using one-shots from the free sample pack, Orchid by Cymatics. My favorite effect that I used on this beat is Origin, also by Cymatics.<br><br>
+                <a href="https://forms.gle/MQ6afs96ppgzuFRv8">Buy</a>
+                </span>
+                <span class="audio-source">files/last_night.mp3</span>
+            </button>
+            <button id="last-night" class="beat">
+                <h3 class="title">Yellow Roses</h3>
+                <h4>$5</4>
+                <span class="description">Yellow Roses is a lo-fi inspired beat, made using the Orchid Sample Pack by Cymatics. All of the samples used for this song can be found in that sample pack, which is free.</span>
+                <span class="audio-source">files/yellow_roses.mp3</span>
+            </button>
+            <button id="tennessee-beat" class="beat">
+                <h3 class="title">Tennessee Beat</h3>
+                <h4>$10</4>
+                <span class="description">Tennessee Beat was mixed and mastered to my grandpa while I showed him FL Studio. It is a dark trap type beat and is named after where my grandpa lives.<br><br>
+                    <a href="https://forms.gle/BkfdhCMcmAUENuRW6">Buy</a>
+                </span>
+                <span class="audio-source">files/tennessee_beat.mp3</span>
+            </button>
+        </div>
+        <div>
+            <div>
+                <h1 id="title">choose a beat!</h1>
+                <p id="description"></p>
+                <audio controls id="audio">
+                    <source src="" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="settings">
+    <h3>Choose an Accent Color!</h3><br>
+    <button class="color-button" id="red" data-color="#eb4034"></button>
+    <button class="color-button" id="orange" data-color="#ffbc4f"></button>
+    <button class="color-button" id="yellow" data-color="#ffff00"></button>
+    <button class="color-button" id="green" data-color="#4dff5e"></button>
+    <button class="color-button" id="blue" data-color="#4da6ff"></button>
+    <button class="color-button" id="purple" data-color="#e485ff"></button>
+</div><script src="script.js"></script>
+</html>
